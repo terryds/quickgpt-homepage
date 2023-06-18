@@ -70,7 +70,7 @@
             <div class="flex flex-col justify-end w-full">
               <div class="flex flex-wrap">
                 <div class="w-full">
-                  <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
+                  <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10"  onclick="downloadFile()">
                     <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
                     <div class="py-2 px-5 bg-white rounded-lg">
                       <p class="relative z-10">Download</p>
@@ -89,9 +89,9 @@
           <p class="mb-9 font-medium text-lg text-center text-white" contenteditable="false">Windows Desktop App for GPT-4</p>
           <div class="flex flex-wrap justify-center items-center mb-7 -m-1.5">
             <div class="w-full lg:w-auto p-1.5">
-              <button class="group relative font-heading px-6 py-5 w-full lg:w-auto uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
+              <button class="group relative font-heading px-6 py-5 w-full lg:w-auto uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md" onclick="downloadFile()">
                 <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-indigo"></div>
-                <p class="relative z-10">Download (WINDOWS)</p>
+                <p class="relative z-10">Download (Windows 64-bit)</p>
               </button>
             </div>
           </div>
@@ -412,6 +412,11 @@
       </div>
     </section>
   </div>
+  <script>
+    function downloadFile() {
+      window.location.href = 'https://github.com/terryds/quickgpt-app/releases/download/v1.0.0/QuickGPT_1.0.0_x64_en-US.msi';
+    }
+    </script>
 </body>
 </html>
 
