@@ -91,7 +91,7 @@
             <div class="w-full lg:w-auto p-1.5">
               <button class="group relative font-heading px-6 py-5 w-full lg:w-auto uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md" onclick="downloadFile()">
                 <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-indigo"></div>
-                <p class="relative z-10">Download (Windows 64-bit)</p>
+                <p class="relative z-10">Download (Windows)</p>
               </button>
             </div>
           </div>
@@ -414,7 +414,13 @@
   </div>
   <script>
     function downloadFile() {
-      window.location.href = 'https://github.com/terryds/quickgpt-app/releases/download/v1.0.0/QuickGPT_1.0.0_x64_en-US.msi';
+      if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1 ){
+        window.location.href = 'https://github.com/terryds/quickgpt-app/releases/download/v1.0.0/QuickGPT_1.0.0_x64_en-US.msi';
+      } else if (navigator.userAgent.indexOf("Win32") != -1) {
+        window.location.href = 'https://github.com/terryds/quickgpt-app/releases/download/v1.0.0/QuickGPT_1.0.0_x86_en-US.msi';
+      } else {
+        alert("Sorry, your OS is not supported")
+      }
     }
     </script>
 </body>
