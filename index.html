@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>QuickGPT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+  <script src="js/main.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="antialiased bg-body text-body font-body">
+  <div>        
+    <section class="relative bg-gradient-black background-animate overflow-hidden"><section><div class="flex items-center justify-between px-8 py-5" contenteditable="false">
+      <div class="w-auto">
+        <div class="flex flex-wrap items-center">
+          <div class="w-auto mr-14">
+            <a href="#">
+              <span class="font-black text-white text-2xl">QuickGPT</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="w-auto hidden lg:block">
+        <ul class="flex items-center mr-10">
+          <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#">Features</a></li>
+          <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#">Benefits</a></li>
+          <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#">Pricing</a></li>
+          <li class="font-heading text-white hover:text-gray-200 text-lg"><a href="#">Github</a></li>
+        </ul>
+      </div>
+      <div class="w-auto">
+        <div class="flex flex-wrap items-center">
+          <div class="w-auto hidden lg:block">
+            <button class="font-heading block py-3.5 px-5 uppercase text-xs tracking-px text-white font-bold bg-white bg-opacity-20 hover:bg-opacity-10 transition ease-in rounded-10">Start Free Trial</button>
+          </div>
+          <div class="w-auto lg:hidden">
+            <a href="#">
+              <svg class="navbar-burger text-gray-800" width="51" height="51" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="56" height="56" rx="28" fill="currentColor"></rect><path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
+        <nav class="relative z-10 px-9 py-8 bg-white h-full"><div class="flex flex-wrap justify-between h-full">
+          <div class="w-full">
+            <div class="flex items-center justify-between -m-2">
+              <div class="w-auto p-2">
+                <a class="inline-block" href="#">
+                </a>
+              </div>
+              <div class="w-auto p-2">
+                <a class="navbar-burger" href="#">
+                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center py-8 w-full">
+              <ul>
+                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Features</a></li>
+                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Solutions</a></li>
+                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Resources</a></li>
+                <li><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col justify-end w-full">
+              <div class="flex flex-wrap">
+                <div class="w-full">
+                  <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
+                    <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
+                    <div class="py-2 px-5 bg-white rounded-lg">
+                      <p class="relative z-10">Download</p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section><div class="relative z-10 container mx-auto px-4">
+      <div class="flex flex-wrap justify-center items-center pt-32">
+        <div class="w-auto">
+          <h1 class="mb-4 font-heading text-center text-white text-8xl md:text-10xl font-bold" contenteditable="false">QuickGPT</h1>
+          <p class="mb-9 font-medium text-lg text-center text-white" contenteditable="false">Windows Desktop App for GPT-4</p>
+          <div class="flex flex-wrap justify-center items-center mb-7 -m-1.5">
+            <div class="w-full lg:w-auto p-1.5">
+              <button class="group relative font-heading px-6 py-5 w-full lg:w-auto uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
+                <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-indigo"></div>
+                <p class="relative z-10">Download (WINDOWS)</p>
+              </button>
+            </div>
+          </div>
+          <p class="mb-7 text-white text-sm text-center" contenteditable="false">Start with 2 days free trial. No credit card required</p>
+          <div class="mb-24 flex items-center mx-auto p-2.5 bg-white bg-opacity-20 max-w-max rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class=""><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg><div class="flex items-center">
+              <svg class="mr-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85874 1.71248C8.21796 0.606907 9.78205 0.606908 10.1413 1.71248L11.4248 5.66264C11.5854 6.15706 12.0462 6.49182 12.566 6.49182H16.7195C17.8819 6.49182 18.3653 7.97935 17.4248 8.66264L14.0646 11.104C13.644 11.4095 13.468 11.9512 13.6287 12.4456L14.9122 16.3958C15.2714 17.5013 14.006 18.4207 13.0656 17.7374L9.70535 15.2961C9.28476 14.9905 8.71525 14.9905 8.29466 15.2961L4.93446 17.7374C3.994 18.4207 2.72863 17.5013 3.08785 16.3958L4.37133 12.4456C4.53198 11.9512 4.35599 11.4095 3.93541 11.104L0.575205 8.66264C-0.365251 7.97935 0.118079 6.49182 1.28055 6.49182H5.43399C5.95386 6.49182 6.41461 6.15706 6.57525 5.66264L7.85874 1.71248Z" fill="#FDE047"></path></svg><svg class="mr-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85874 1.71248C8.21796 0.606907 9.78205 0.606908 10.1413 1.71248L11.4248 5.66264C11.5854 6.15706 12.0462 6.49182 12.566 6.49182H16.7195C17.8819 6.49182 18.3653 7.97935 17.4248 8.66264L14.0646 11.104C13.644 11.4095 13.468 11.9512 13.6287 12.4456L14.9122 16.3958C15.2714 17.5013 14.006 18.4207 13.0656 17.7374L9.70535 15.2961C9.28476 14.9905 8.71525 14.9905 8.29466 15.2961L4.93446 17.7374C3.994 18.4207 2.72863 17.5013 3.08785 16.3958L4.37133 12.4456C4.53198 11.9512 4.35599 11.4095 3.93541 11.104L0.575205 8.66264C-0.365251 7.97935 0.118079 6.49182 1.28055 6.49182H5.43399C5.95386 6.49182 6.41461 6.15706 6.57525 5.66264L7.85874 1.71248Z" fill="#FDE047"></path></svg><svg class="mr-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85874 1.71248C8.21796 0.606907 9.78205 0.606908 10.1413 1.71248L11.4248 5.66264C11.5854 6.15706 12.0462 6.49182 12.566 6.49182H16.7195C17.8819 6.49182 18.3653 7.97935 17.4248 8.66264L14.0646 11.104C13.644 11.4095 13.468 11.9512 13.6287 12.4456L14.9122 16.3958C15.2714 17.5013 14.006 18.4207 13.0656 17.7374L9.70535 15.2961C9.28476 14.9905 8.71525 14.9905 8.29466 15.2961L4.93446 17.7374C3.994 18.4207 2.72863 17.5013 3.08785 16.3958L4.37133 12.4456C4.53198 11.9512 4.35599 11.4095 3.93541 11.104L0.575205 8.66264C-0.365251 7.97935 0.118079 6.49182 1.28055 6.49182H5.43399C5.95386 6.49182 6.41461 6.15706 6.57525 5.66264L7.85874 1.71248Z" fill="#FDE047"></path></svg><svg class="mr-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85874 1.71248C8.21796 0.606907 9.78205 0.606908 10.1413 1.71248L11.4248 5.66264C11.5854 6.15706 12.0462 6.49182 12.566 6.49182H16.7195C17.8819 6.49182 18.3653 7.97935 17.4248 8.66264L14.0646 11.104C13.644 11.4095 13.468 11.9512 13.6287 12.4456L14.9122 16.3958C15.2714 17.5013 14.006 18.4207 13.0656 17.7374L9.70535 15.2961C9.28476 14.9905 8.71525 14.9905 8.29466 15.2961L4.93446 17.7374C3.994 18.4207 2.72863 17.5013 3.08785 16.3958L4.37133 12.4456C4.53198 11.9512 4.35599 11.4095 3.93541 11.104L0.575205 8.66264C-0.365251 7.97935 0.118079 6.49182 1.28055 6.49182H5.43399C5.95386 6.49182 6.41461 6.15706 6.57525 5.66264L7.85874 1.71248Z" fill="#FDE047"></path></svg><svg class="mr-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85874 1.71248C8.21796 0.606907 9.78205 0.606908 10.1413 1.71248L11.4248 5.66264C11.5854 6.15706 12.0462 6.49182 12.566 6.49182H16.7195C17.8819 6.49182 18.3653 7.97935 17.4248 8.66264L14.0646 11.104C13.644 11.4095 13.468 11.9512 13.6287 12.4456L14.9122 16.3958C15.2714 17.5013 14.006 18.4207 13.0656 17.7374L9.70535 15.2961C9.28476 14.9905 8.71525 14.9905 8.29466 15.2961L4.93446 17.7374C3.994 18.4207 2.72863 17.5013 3.08785 16.3958L4.37133 12.4456C4.53198 11.9512 4.35599 11.4095 3.93541 11.104L0.575205 8.66264C-0.365251 7.97935 0.118079 6.49182 1.28055 6.49182H5.43399C5.95386 6.49182 6.41461 6.15706 6.57525 5.66264L7.85874 1.71248Z" fill="#FDE047"></path></svg>
+            </div>
+          </div>
+          <img class="transform hover:scale-105 transition ease-in-out duration-1000" src="images/hero.JPG" alt="">
+        </div>
+      </div>
+    </div>
+    <img class="absolute bottom-0 left-0 w-full" src="gradia-assets/elements/hero/line.svg" alt=""></section>
+    
+    <section class="relative py-44 overflow-hidden" id="feature-1"><div class="container mx-auto px-4">
+      <div class="flex flex-wrap -m-6">
+        <div class="w-full lg:w-1/2 p-6">
+          <div class="lg:max-w-lg">
+            <h2 class="mb-6 font-heading font-bold text-7xl text-gray-900" contenteditable="false">Ctrl + Alt + C to
+              Open Pop-Up Quickly</h2>
+              <p class="mb-20 text-base text-gray-600" contenteditable="false">Don't want to switch your window just to use ChatGPT?
+                Open a mini pop-up window of QuickGPT while you do whatever you're focused on.
+                Supercharge your productivity everywhere: while drafting a document on Google Docs, coding on Visual Studio Code, anywhere you like.
+                
+                
+              </p>
+              <ul>
+                <li class="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img class="mr-2" src="gradia-assets/elements/hero/check.svg" alt=""><p>Powered by GPT-4 with no message cap</p>
+                </li>
+                <li class="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img class="mr-2" src="gradia-assets/elements/hero/check.svg" alt=""><p>Open Anywhere with Ctrl + Alt + C</p>
+                </li>
+                <li class="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img class="mr-2" src="gradia-assets/elements/hero/check.svg" alt=""><p>Access Internet with Google Search</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 p-6">
+            <div class="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
+              <img class="relative top-10 mx-auto transform hover:-translate-y-16 transition ease-in-out duration-500" src="images/mini-popup-JPG-1687052867398.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="relative pt-24 pb-32 overflow-hidden" id="feature-2"><div class="container mx-auto px-4 mb-12">
+      <h2 class="mb-24 font-heading font-semibold text-center text-5xl sm:text-6xl text-gray-900">Supercharge your workflow
+        on Windows with GPT-4</h2>
+        <div class="flex flex-wrap -m-8 max-w-4xl mx-auto">
+          <div class="w-full md:w-1/2 p-8 border-b md:border-r border-gray-200">
+            <a class="group" href="#">
+            </a><div class="flex flex-wrap -m-4">
+              <a class="group" href="#">
+                <div class="w-auto p-4">
+                  <img src="gradia-assets/elements/features/users.svg" alt="">
+                </div>
+              </a><div class="flex-1 p-4">
+                <a class="group" href="#">
+                  <h3 class="mb-5 font-heading font-bold text-gray-900 text-lg group-hover:underline">Powered by GPT-4
+                  </h3>
+                  <p class="mb-5 text-gray-600 text-base">Simply download and get access to
+                    GPT-4. No API key needed.</p>
+                  </a><a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                    
+                    <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-black transition ease-in-out duration-500"></div>
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="w-full md:w-1/2 p-8 border-b border-gray-200">
+              <a class="group" href="#">
+              </a><div class="flex flex-wrap -m-4">
+                <a class="group" href="#">
+                  <div class="w-auto p-4">
+                    <img src="gradia-assets/elements/features/folder.svg" alt="">
+                  </div>
+                </a><div class="flex-1 p-4">
+                  <a class="group" href="#">
+                    <h3 class="mb-5 font-heading font-bold text-gray-900 text-lg group-hover:underline">No more 25 messages per 3 hour cap</h3>
+                    <p class="mb-5 text-gray-600 text-base">Chat with QuickGPT whenever you want.
+                      No message cap limit.</p>
+                    </a><a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                      
+                      <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-black transition ease-in-out duration-500"></div>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="w-full md:w-1/2 p-8 border-b md:border-b-0 md:border-r border-gray-200">
+                <a class="group" href="#">
+                </a><div class="flex flex-wrap -m-4">
+                  <a class="group" href="#">
+                    <div class="w-auto p-4">
+                      <img src="gradia-assets/elements/features/folder.svg" alt="">
+                    </div>
+                  </a><div class="flex-1 p-4">
+                    <a class="group" href="#">
+                      <h3 class="mb-5 font-heading font-bold text-gray-900 text-lg group-hover:underline">Open Anywhere</h3>
+                      <p class="mb-5 text-gray-600 text-base">Pressing Ctrl + Alt + C will open QuickGPT Mini Window, so you can get help from AI without the need to switch focus. If you're in File Explorer, you can also right click and open QuickGPT.</p>
+                    </a><a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                      
+                      <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-black transition ease-in-out duration-500"></div>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="w-full md:w-1/2 p-8">
+                <a class="group" href="#">
+                </a><div class="flex flex-wrap -m-4">
+                  <a class="group" href="#">
+                    <div class="w-auto p-4">
+                      <img src="gradia-assets/elements/features/folder.svg" alt="">
+                    </div>
+                  </a><div class="flex-1 p-4">
+                    <a class="group" href="#">
+                      <h3 class="mb-5 font-heading font-bold text-gray-900 text-lg group-hover:underline">Google Search Support</h3>
+                      <p class="mb-5 text-gray-600 text-base">You can use Google Search plugin by clicking on the lightning button in the text input.</p>
+                    </a><a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                      
+                      <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-black transition ease-in-out duration-500"></div>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-32 bg-black overflow-hidden">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center -m-6">
+              <div class="w-full md:w-1/2 p-6">
+                <div class="max-w-lg">
+                  <h2 class="mb-5 font-heading font-bold text-6xl sm:text-7xl text-white">Try QuickGPT for Free</h2>
+                  <p class="mb-11 text-gray-400 text-base">2-days free trial. Then $19/month or $180/month</p>
+                  <ul>
+                    <li class="flex items-center mb-5 text-base text-white">
+                      <svg class="mr-2.5" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="9" cy="9" r="8.5" stroke="white"></circle>
+                        <path d="M5.5 9.5L7.5 11.5L12.5 6.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                      <p>Cheaper than ChatGPT Plus</p>
+                    </li>
+                    <li class="flex items-center mb-5 text-base text-white">
+                      <svg class="mr-2.5" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="9" cy="9" r="8.5" stroke="white"></circle>
+                        <path d="M5.5 9.5L7.5 11.5L12.5 6.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                      <p>Access GPT-4 Anytime. No messages cap.</p>
+                    </li>
+                    <li class="flex items-center mb-5 text-base text-white">
+                      <svg class="mr-2.5" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="9" cy="9" r="8.5" stroke="white"></circle>
+                        <path d="M5.5 9.5L7.5 11.5L12.5 6.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                      <p>Open Anywhere with Ctrl + Alt + C</p>
+                    </li>
+                    <li class="flex items-center mb-5 text-base text-white">
+                      <svg class="mr-2.5" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="9" cy="9" r="8.5" stroke="white"></circle>
+                        <path d="M5.5 9.5L7.5 11.5L12.5 6.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                      <p>Google Search Integration</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-lg ml-auto">
+                  <a href="#">
+                    <div class="mb-5 p-px bg-gradient-cyan rounded-md">
+                      <div class="p-4 bg-gray-900 rounded-md">
+                        <div class="flex flex-wrap justify-between -m-3">
+                          <div class="w-auto p-3">
+                            <div class="flex flex-wrap items-center -m-3">
+                              <div class="w-auto p-3">
+                                <img src="gradia-assets/elements/pricing/checkbox-white.svg" alt="">
+                              </div>
+                              <div class="w-auto p-3">
+                                <h3 class="mb-1 font-heading font-medium text-white text-xl">Annual</h3>
+                                <p class="text-gray-400 text-base">$180/year (Rp2.600.000/year), that’s $15/month only</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="w-auto p-3">
+                            <p class="font-heading px-3 py-1.5 font-semibold text-xs text-gray-300 bg-gray-800 tracking-px uppercase rounded-full">Best value</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="mb-5 p-4 bg-black border border-gray-800 rounded-md">
+                      <div class="flex flex-wrap justify-between -m-3">
+                        <div class="w-auto p-3">
+                          <div class="flex flex-wrap items-center -m-3">
+                            <div class="w-auto p-3">
+                              <img src="gradia-assets/elements/pricing/checkbox-black.svg" alt="">
+                            </div>
+                            <div class="w-auto p-3">
+                              <h3 class="mb-1 font-heading font-medium text-white text-xl">Monthly</h3>
+                              <p class="text-gray-400 text-base">$19/month (Rp 280.000/month)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="group relative">
+                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-green opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
+                    <button class="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                      <div class="relative px-9 py-5 bg-gradient-green overflow-hidden rounded-md">
+                        <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
+                        <p class="relative z-10">TRY FOR FREE</p>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="relative pt-24 pb-32 bg-black overflow-hidden" id="faq"><img class="absolute left-1/2 transform -translate-x-1/2 bottom-0" src="gradia-assets/elements/faq/radial.svg" alt=""><div class="relative z-10 container mx-auto px-4">
+          <h2 class="mb-16 font-heading font-semibold text-6xl sm:text-7xl text-white">Frequently Asked Question</h2>
+          <div class="py-9 border-t border-white border-opacity-10">
+            <div class="flex flex-wrap -m-6">
+              <div class="w-full md:w-1/2 p-6">
+                <h3 class="font-heading font-medium text-xl text-white" contenteditable="false"></h3><h3 class="font-heading font-medium text-xl text-white" style="border-color: rgba(229,231,235,var(--tw-border-opacity)); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: var(--tw-empty, ); --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-text-opacity: 1; outline: none; user-select: text;">I'm from Indonesia, can I pay with bank transfer?</h3>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                  <p class="text-base text-gray-200" contenteditable="false">Yes, we support Indonesian payment methods such as local bank transfer. Just click "Download" and follow the payment instruction.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-9 border-t border-white border-opacity-10">
+            <div class="flex flex-wrap -m-6">
+              <div class="w-full md:w-1/2 p-6">
+                <h3 class="font-heading font-medium text-xl text-white" contenteditable="false"></h3><h3 class="font-heading font-medium text-xl text-white" style="border-color: rgba(229,231,235,var(--tw-border-opacity)); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: var(--tw-empty, ); --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-text-opacity: 1; outline: none; user-select: text;">Is it really unlimited?</h3>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                  <p class="text-base text-gray-200" contenteditable="false">Yes as long as we detect it's a fair usage that you only use it for yourself only for normal daily activity.If we detect any suspicious activity, we may ban your account.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-9 border-t border-white border-opacity-10">
+            <div class="flex flex-wrap -m-6">
+              <div class="w-full md:w-1/2 p-6" contenteditable="false">
+                <h3 class="font-heading font-medium text-xl text-white" contenteditable="false">Is it secure?</h3>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                  <p class="text-base text-gray-200" contenteditable="false">Yes, we guarantee we don't log any user activity. <br>We even open source our app at https://github.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-9 border-t border-b border-white border-opacity-10">
+            <div class="flex flex-wrap -m-6">
+              <div class="w-full md:w-1/2 p-6" contenteditable="false">
+                <h3 class="font-heading font-medium text-xl text-white" contenteditable="false"></h3><h3 class="font-heading font-medium text-xl text-white" style="border-color: rgba(229,231,235,var(--tw-border-opacity)); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: var(--tw-empty, ); --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-text-opacity: 1; outline: none; user-select: text;" contenteditable="false">Do you have any usage policy?</h3>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                  <p class="text-base text-gray-200" contenteditable="false">Basically as long as you use it for normal daily activity, abiding by OpenAI usage policy and nothing illegal, then you're safe.<br>Read <a href="https://bit.ly/quickgpt-usage-policy" class="underline">full policy here</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-9 border-t border-b border-white border-opacity-10">
+            <div class="flex flex-wrap -m-6">
+              <div class="w-full md:w-1/2 p-6" contenteditable="false">
+                <h3 class="font-heading font-medium text-xl text-white" contenteditable="false"></h3><h3 class="font-heading font-medium text-xl text-white" style="border-color: rgba(229,231,235,var(--tw-border-opacity)); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: var(--tw-empty, ); --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-text-opacity: 1; outline: none; user-select: text;" contenteditable="false">How do you make this?</h3>
+              </div>
+              <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                  <p class="text-base text-gray-200" contenteditable="false">We are using <a href="https://github.com/mckaywrigley/chatbot-ui" class="underline">Chatbot UI</a> and Tauri to build this app.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="py-16 bg-black overflow-hidden"><div class="container mx-auto px-4">
+        <div class="flex flex-wrap lg:items-center -m-6">
+          <div class="w-full md:w-auto p-6">
+            <span class="text-white">QuickGPT</span>
+          </div>
+          <div class="w-auto md:ml-auto p-6">
+            <div class="flex flex-wrap items-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6.66669L9.0755 11.0504C9.63533 11.4236 10.3647 11.4236 10.9245 11.0504L17.5 6.66669M4.16667 15.8334H15.8333C16.7538 15.8334 17.5 15.0872 17.5 14.1667V5.83335C17.5 4.91288 16.7538 4.16669 15.8333 4.16669H4.16667C3.24619 4.16669 2.5 4.91288 2.5 5.83335V14.1667C2.5 15.0872 3.24619 15.8334 4.16667 15.8334Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </div>
+              <div class="w-auto p-1.5">
+                <h3 class="font-heading font-medium text-base text-white">quickgpt.official@gmail.com</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-between -m-6">
+          <div class="w-auto p-6">
+            <p class="text-sm text-gray-300">© Copyright 2023. All Rights Reserved by PT INOVASI TEKNOLOGI INSPIRATIF.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+
